@@ -42,6 +42,6 @@ BS Artificial Intelligence Student
 [GitHub](https://github.com/hassam17-bit) | [LinkedIn](https://www.linkedin.com/in/hasam-daud-bb4308323/)
 
 
-![Kairo App Showcase](Kairo — AI Life Manager.png)
+![Kairo App Showcase](Kairo_AI_Life_Manager.png)
 
 
