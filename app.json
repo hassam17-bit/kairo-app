@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Kairo",
+    "slug": "kairo",
+    "owner": "hamedaud",
+    "version": "1.4.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#070D26",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070D26"
+    },
+    "android": {
+      "package": "com.hamedaud.kairo",
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#070D26"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "USE_EXACT_ALARM"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ]
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#7C5CFF"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Kairo uses your location to find accurate prayer times."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Kairo reads your timetable photo to build your schedule.",
+          "cameraPermission": "Kairo uses the camera to photograph your timetable.",
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
